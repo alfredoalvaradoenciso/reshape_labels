@@ -42,7 +42,7 @@ reshape_save_labels, i(varlist) j(varname) v(varlist)
 
 Suppose you have a long-format dataset with the following structure:
 
-| var1 | var2 | j  | v1 | v2 |
+| var1 | var2 | j  | value | percentile |
 | ---- | ---- | -- | -- | -- |
 | 1    | A    | 1 | 5  | 8  |
 | 1    | A    | 2 | 3  | 7  |
@@ -55,7 +55,7 @@ Assume that the variable `j` has the following value labels:
 To convert this data from long to wide, run the program as follows:
 
 ```stata
-reshape_save_labels, i(var1 var2) j(j) v(v1 v2)
+reshape_save_labels, i(var1 var2) j(j) v(value percentile)
 ```
 
 ### Output
@@ -64,7 +64,7 @@ The output will be wide-format data with variables named according to the labels
 
 #### Example Output:
 
-| var1 | var2 | v11 | v12 | v21 | v22 |
+| var1 | var2 | value1 | value2 | percentile1 | percentile2 |
 | ---- | ---- | ---------- | ---------- | ---------- | ---------- |
 | 1    | A    | 5          | 3          | 8          | 7          |
 
