@@ -64,7 +64,7 @@ The output will be wide-format data with variables named according to the labels
 
 #### Example Output:
 
-| var1 | var2 | v1\_Height | v1\_Weight | v2\_Height | v2\_Weight |
+| var1 | var2 | v11 | v12 | v21 | v22 |
 | ---- | ---- | ---------- | ---------- | ---------- | ---------- |
 | 1    | A    | 5          | 3          | 8          | 7          |
 
