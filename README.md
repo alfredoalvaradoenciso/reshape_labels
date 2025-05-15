@@ -81,11 +81,3 @@ In this example, the variable names incorporate the value labels "Height" and "W
 
 * Make sure the `j` variable has labels, as the program will use them as the names of the new wide variables.
 * If a label does not exist, the variable's value will be used as the name instead.
-
-## License
-
-This program is released under the MIT License. You are free to use, modify, and distribute it.
-
-## Contributions
-
-Feel free to open issues or contribute to this repository. Any improvements or bug fixes are welcome.
