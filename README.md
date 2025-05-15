@@ -64,13 +64,14 @@ The output will be wide-format data with variables named according to the labels
 
 #### Example Output:
 
-| var1 | var2 | Height | Weight | Height | Weight |
+| var1 | var2 | v11 | v12 | v21 | v22 |
 | ---- | ---- | ---------- | ---------- | ---------- | ---------- |
 | 1    | A    | 5          | 3          | 8          | 7          |
 
+
 In this example, the variable names incorporate the value labels "Height" and "Weight" from `j`, making the wide-format data more descriptive.
 
-| var1 | var2 | v11 | v12 | v21 | v22 |
+| var1 | var2 | Height | Weight | Height | Weight |
 | ---- | ---- | ---------- | ---------- | ---------- | ---------- |
 | 1    | A    | 5          | 3          | 8          | 7          |
 
